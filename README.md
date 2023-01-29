@@ -1,5 +1,4 @@
 # Overview
-2
 Danish translation for the open source control panel Pterodactyl.
 Supported version: v1.11.2
 

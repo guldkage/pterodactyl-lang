@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'permissions' => [
+        'websocket_*' => 'Allows access to the websocket for this server.',
+        'control_console' => 'Tillader brugeren at sende data til serverkonsollen.',
+        'control_start' => 'Tillader brugeren at starte serverforekomsten.',
+        'control_stop' => 'Tillader brugeren at stoppe serverforekomsten.',
+        'control_restart' => 'Tillader brugeren at genstarte serverforekomsten.',
+        'control_kill' => 'Tillader brugeren at dræbe serverforekomsten.',
+        'user_create' => 'Tillader brugeren at oprette nye brugerkonti til serveren.',
+        'user_read' => 'Tillader brugeren tilladelse til at se brugere tilknyttet denne server.',
+        'user_update' => 'Tillader brugeren at ændre andre brugere tilknyttet denne server.',
+        'user_delete' => 'Tillader brugeren at slette andre brugere tilknyttet denne server.',
+        'file_create' => 'Tillader brugeren tilladelse til at oprette nye filer og mapper.',
+        'file_read' => 'Tillader brugeren at se filer og mapper forbundet med denne serverforekomst, samt se deres indhold.',
+        'file_update' => 'Tillader brugeren at opdatere filer og mapper tilknyttet serveren.',
+        'file_delete' => 'Tillader brugeren at slette filer og mapper.',
+        'file_archive' => 'Tillader brugeren at oprette filarkiver og dekomprimere eksisterende arkiver.',
+        'file_sftp' => 'Tillader brugeren at udføre ovenstående filhandlinger ved hjælp af en SFTP-klient.',
+        'allocation_read' => 'Tillader adgang til servertildelingsstyringssiderne.',
+        'allocation_update' => 'Tillader brugertilladelse til at foretage ændringer af serverens tildelinger.',
+        'database_create' => 'Tillader brugertilladelse til at oprette en ny database til serveren.',
+        'database_read' => 'Tillader brugertilladelse til at se serverdatabaserne.',
+        'database_update' => 'Tillader en bruger tilladelse til at foretage ændringer i en database. Hvis brugeren ikke også har tilladelsen "Se adgangskode", vil de ikke være i stand til at ændre adgangskoden.',
+        'database_delete' => 'Tillader en bruger tilladelse til at slette en databaseinstans.',
+        'database_view_password' => 'Tillader en bruger tilladelse til at se en databaseadgangskode i systemet.',
+        'schedule_create' => 'Tillader en bruger at oprette en ny tidsplan for serveren.',
+        'schedule_read' => 'Tillader en bruger tilladelse til at se tidsplaner for en server.',
+        'schedule_update' => 'Tillader en bruger tilladelse til at foretage ændringer til en eksisterende serverplan.',
+        'schedule_delete' => 'Tillader en bruger at slette en tidsplan for serveren.',
+    ],
+];
